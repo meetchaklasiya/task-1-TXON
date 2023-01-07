@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@700&family=Roboto+Condensed&display=swap');
+body{
+    background-color: black;
+    height: 100vh;
+}
+.name,.date{
+    text-align: center;
+    color: white;
+}
+.name{
+    margin: 20px 0;
+}
+.stevejobimage{
+    margin : 40px 10px;
+    width: 50%;
+}
+.description{
+    color: white;
+    margin: 40px 10px;
+}
+.content{
+    display: flex;
+    font-size: 18px;
+}
+.line{
+    width: 100%;
+    height: 0.01vh;
+    background-color: white;
+    border: 2px solid white;
+}
+.footerdescription{
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
